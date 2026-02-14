@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>quickswitch</id>
+    <version>1.8</version>
+    <owners>JoyHak</owners>
+    <title>QuickSwitch</title>
+    <authors>Rafaello</authors>
+    <projectUrl>https://github.com/JoyHak/QuickSwitch</projectUrl>
+    <iconUrl>https://raw.githack.com/JoyHak/QuickSwitch/main/Icons/QuickSwitch.ico</iconUrl>
+    <copyright>2026 QuickSwitch ToYu studio</copyright>
+    <licenseUrl>https://github.com/JoyHak/QuickSwitch/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/JoyHak/QuickSwitch/Lib</projectSourceUrl>
+    <docsUrl>https://github.com/JoyHak/QuickSwitch/blob/main/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/JoyHak/QuickSwitch/issues/new?template=bug-report.yaml</bugTrackerUrl>
+    <tags>quickswitch file-manager file-dialog utility clipboard clipboard-manager favorites bookmarks total-commander xyplorer</tags>
+    <summary>Open/save as file dialog improvement: automatically opens path from any file manager.</summary>
+    <description>QuickSwitch automatically switches file dialog path. Save and open files with convenience and speed. 
+It has 2 modes
+. Menu: displays a list of opened tabs from file managers, allows to choose the path.
+. AutoSwitch: automatically opens the last active tab.   
+To open the Menu press Ctrl+Q. You can also select Mouse buttons, Capslock, Space, Windows and other special keys in Menu settings
+Different paths available for different tasks:
+. Pinned paths (that are always visible).
+. Favorite paths (with customizable icons and names).
+. Clipboard paths (copy any path and you will see it in the Menu).  
+There are many customization options in Menu settings:
+. Apply dark theme and dark colors.
+. Change menu font and size.
+. Display short path, transform it as you want 
+...and many more options are available!</description>
+    <releaseNotes>https://github.com/JoyHak/QuickSwitch/releases/tag/1.8</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
