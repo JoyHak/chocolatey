@@ -35,9 +35,10 @@ The embedded software can be verified manually by doing the following:
     ([IO.Compression.ZipFile]::OpenRead('QuickSwitch-1.8-x64.zip')).comment
     ```
 5. The signature of the downloaded asset and embedded archive (both 32-bit and 64-bit) must match the following:
-<details> <summary>ZipSign</summary>
+<details><summary>ZipSign</summary>
 ZipSign=data:application/cms;base64,MIIC3QYJKoZIhvcNAQcCoIICzjCCAsoCAQExDTALBglghkgBZQMEAgEwCwYJKoZIhvcNAQcBMYICpzCCAqMCAQEwgZYwfjELMAkGA1UEBhMCRU4xEDAOBgNVBAgMB0FsYWJhbWExEzARBgNVBAcMCk1vbnRnb21lcnkxFDASBgNVBAoMC1RvWXUgc3R1ZGlvMREwDwYDVQQDDAhSYWZhZWxsbzEfMB0GCSqGSIb3DQEJARYQRGlzY29yZDogQHRveXUucwIUZOe+7P9MtefNGFMEknqEn9WVnw0wCwYJYIZIAWUDBAIBoIHkMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTI1MDgxNDA3MTUyNlowLwYJKoZIhvcNAQkEMSIEIAEB2L61DlIisiBqydLbY7UxvxpIwbLTMUbFuHTheMJPMHkGCSqGSIb3DQEJDzFsMGowCwYJYIZIAWUDBAEqMAsGCWCGSAFlAwQBFjALBglghkgBZQMEAQIwCgYIKoZIhvcNAwcwDgYIKoZIhvcNAwICAgCAMA0GCCqGSIb3DQMCAgFAMAcGBSsOAwIHMA0GCCqGSIb3DQMCAgEoMA0GCSqGSIb3DQEBAQUABIIBAJa6BCtb3CYmeNjnGWy7W7sbFg8IAcHIBopVwiDWvAA0U1sdzqGrpbMktJ0OHlR1AVmyklfC5ttwOs3XFrIfMuIX9L4J9ExUQtnZJRb7WApCHi/fLcTdvTAeexLE3jXIcrfpahgvbZT3zu4ntQSUpSgEDFesImMlKAqDQACmxbairfJUn6Rqm72JhHg66hImyaGI7LqkcxFly9QzcuWUdU4AesVtcrZ11aE1J+kRGPDoEukvEgfF+S9IUCa+MMlQwIad9Axup3M0OtGd7ZG3cGFgLHzkdIjSRi8CyaUQ6nsCDETJmq4CnVLUrRewd05kxE/cqcmDvG5X0uF8bDm2wcU=
 </details>
+
 6.   Verify zip signature using utility `ZipSign.exe`:
      1.   Download and install: <https://github.com/falk-werner/zipsign>
      2.   Verify embedded `certificate.pem`:
